@@ -4,6 +4,7 @@ public class Main {
     transient2();
     transient3();
     transient4();
+    transient5();
 }
     public static void transient1 () {
             System.out.println("work-1");
@@ -47,5 +48,16 @@ public class Main {
         System.out.println(friend);
         friend = friend / 7;
         System.out.println(friend);
+    }
+    public static void transient5 () {
+        System.out.println("work-5");
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog *10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog +4;
+        System.out.println(frog);
     }
 }
