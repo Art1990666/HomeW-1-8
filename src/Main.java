@@ -87,6 +87,8 @@ public class Main {
         System.out.println("Всего работников в компании" + capacityLeft );
         capacityLeft = capacityLeft +94;
         forOne = totalHours / capacityLeft;
-        System.out.println("Если в компании работает" + " " + capacityLeft + " " + "человек, то всего" + " " + forOne + " " + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает" + " " + capacityLeft + " " + "человек, то всего" +
+                " " + forOne + " " + " часов " + "работы может быть поделено между сотрудниками");
     }
+
 }
