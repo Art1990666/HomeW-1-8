@@ -3,6 +3,7 @@ public class Main {
     transient1();
     transient2();
     transient3();
+    transient4();
 }
     public static void transient1 () {
             System.out.println("work-1");
@@ -37,5 +38,14 @@ public class Main {
         var paper = 763789;
         paper = paper -7639;
         System.out.println(paper);
+    }
+    public static void transient4 () {
+        System.out.println("work-4");
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend +2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
     }
 }
