@@ -9,6 +9,7 @@ public class Main {
     transient7();
     transient8();
 }
+
     public static void transient1 () {
             System.out.println("work-1");
             var dog = 8;
