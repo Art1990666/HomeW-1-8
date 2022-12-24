@@ -17,7 +17,6 @@ public class Main {
             System.out.println(cat);
             var paper = 763789;
             System.out.println(paper);
-
     }
     public static void transient2 () {
         System.out.println("work-2");
@@ -90,5 +89,4 @@ public class Main {
         System.out.println("Если в компании работает" + " " + capacityLeft + " " + "человек, то всего" +
                 " " + forOne + " " + " часов " + "работы может быть поделено между сотрудниками");
     }
-
 }
